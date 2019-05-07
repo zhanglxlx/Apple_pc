@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#list a{
+    color: #fff;
+    font-size: 1rem;
+}
+#list ul li{
+    /* text-align: center; */
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+}
+#list .big{
+    font-size: 1.5rem;
+}
+#list a:hover{
+    text-decoration: none;
+    color: #999;
+}
