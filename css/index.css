@@ -1,3 +1,4 @@
+/* 轮播样式 */
 #banner {
     height: 46rem;
     background: url(../img/hero-banner-homepage.image.large_2x.jpg) no-repeat center center;
@@ -23,15 +24,9 @@
 #search input {
     width: 23rem !important;
 }
-
-
-/* #search a {
-    color: #666;
-}
-
-#search a:hover {
-    color: #4674B7;
-} */
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+  }
 
 #search ul li {
     padding-left: 1.5rem;
@@ -40,4 +35,17 @@
 
 #search #ul_list {
     display: none;
+}
+/* 主体样式 */
+div.iphone{
+    height: 33rem;
+    background: url(../img/banner-hero-giveback-support.image.large_2x.jpg) no-repeat center center;
+    background-size: 100%;
+}
+.a_color{
+    font-size:1.5rem;
+    color: #2D7DD6;
+}
+.p_size{
+    font-size:1.5rem;
 }

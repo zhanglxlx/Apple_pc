@@ -36,7 +36,9 @@ a:hover {
 .my_header a:hover {
     color: #999;
 }
-
+.my_header input{
+    outline: none;
+}
 
 /* 媒体查询 */
 
@@ -60,4 +62,11 @@ a:hover {
     .hidden_md {
         display: block;
     }
+}
+/* 底部样式 */
+#foot{
+    background: #F0F0F0;
+}
+#foot h3 a{
+    color: #999;
 }
