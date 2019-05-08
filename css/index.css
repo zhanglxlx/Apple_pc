@@ -1,24 +1,43 @@
-#banner{
-    height: 45rem;
+#banner {
+    height: 46rem;
     background: url(../img/hero-banner-homepage.image.large_2x.jpg) no-repeat center center;
     background-size: 100%;
 }
-#banner h1{
+
+#banner h1 {
     font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: .006em;
 }
-#search{
-    width: 30%;
-    box-sizing:border-box;
+
+#search {
+    width: 28rem;
+    box-sizing: border-box;
 }
-#search i{
+
+#search i {
     font-size: 1.5rem;
     color: #C9C9C9;
 }
-#search input{
-    width: 30rem !important;
+
+#search input {
+    width: 23rem !important;
 }
-#search a{
+
+
+/* #search a {
     color: #666;
+}
+
+#search a:hover {
+    color: #4674B7;
+} */
+
+#search ul li {
+    padding-left: 1.5rem;
+    height: 2.5rem;
+}
+
+#search #ul_list {
+    display: none;
 }

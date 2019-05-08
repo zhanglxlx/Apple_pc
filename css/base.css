@@ -1,13 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 1.1rem;
     font-style: normal;
 }
+
 a {
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.my_header a {
     color: #fff;
     font-size: 1rem;
 }
@@ -19,14 +29,14 @@ a {
     line-height: 30px;
 }
 
-.big {
+.my_header .big {
     font-size: 1.5rem;
 }
 
-a:hover {
-    text-decoration: none;
+.my_header a:hover {
     color: #999;
 }
+
 
 /* 媒体查询 */
 
