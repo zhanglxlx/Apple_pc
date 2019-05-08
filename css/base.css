@@ -2,20 +2,52 @@
     margin: 0;
     padding: 0;
 }
-#list a{
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+a {
     color: #fff;
     font-size: 1rem;
 }
-#list ul li{
+
+#list ul li {
     /* text-align: center; */
     align-content: center;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 30px;
 }
-#list .big{
+
+.big {
     font-size: 1.5rem;
 }
-#list a:hover{
+
+a:hover {
     text-decoration: none;
     color: #999;
+}
+
+/* 媒体查询 */
+
+@media screen and (min-width:991px) {
+    .hidden_md {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:567px) {
+    .hidden_md,
+    .hidden_md_li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hidden_about {
+        margin-left: 0 !important;
+    }
+    .hidden_md {
+        display: block;
+    }
 }
