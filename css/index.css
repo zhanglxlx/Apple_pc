@@ -49,3 +49,8 @@ div.iphone{
 .p_size{
     font-size:1.5rem;
 }
+#body_section{
+    background: url(../img/today-at-apple-workshop-banner.image.large_2x.jpg) no-repeat center center;
+    background-size: 100%;
+    color: #fff;
+}
