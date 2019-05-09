@@ -36,9 +36,11 @@ a:hover {
 .my_header a:hover {
     color: #999;
 }
-.my_header input{
+
+.my_header input {
     outline: none;
 }
+
 
 /* 媒体查询 */
 
@@ -63,10 +65,23 @@ a:hover {
         display: block;
     }
 }
+
+
 /* 底部样式 */
-#foot{
+
+#foot {
     background: #F0F0F0;
 }
-#foot h3 a{
+
+#foot h3 a {
     color: #999;
+    font-size: 1rem;
+}
+
+#foot a {
+    font-size: 0.5rem;
+}
+
+#foot img.img-thumbnail {
+    width: 12%;
 }
