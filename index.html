@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Apple 首页</title>
 </head>
-
 <body>
     <div id="banner">
         <div id="header"></div>
-        <div class="text-center mt-5">
+        <div id="banner_child" class="text-center mt-5">
             <h1 class="p-5">Welcome to Apple Support</h1>
             <div id="search" class="m-auto bg-white pt-1">
                 <form class="form-inline" role="form">
@@ -23,7 +22,7 @@
                         <input type="text" class="form-control p-2 border-0 w-100" id="name" placeholder="Search Support">
                     </div>
                 </form>
-                <div id="ul_list" class="text-left border-top p-3">
+                <div id="ul_list" class="text-left border-top p-3 clearfix">
                     <h3>Quick Links</h3>
                     <ul class="list-unstyled ">
                         <li><a href="#">Apple ID Account Page</a></li>
@@ -37,7 +36,7 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container p-0">
         <ul id="list_apple" class="list-unstyled clearfix">
             <!-- <li>
                 <a href="">
@@ -50,13 +49,13 @@
     <div class="border-top border-bottom pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <h1>Work seamlessly on all your Apple devices</h1>
                     <p class="pt-2 p_size">With Continuity, you can do things like take a photo on your iPhone, then see it on your Mac — instantly.</p>
                     <a href="#" class="pr-2 a_color" >Learn all the ways to use Continuity  &gt;
                     </a>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <img class="img-thumbnail border-0" src="img/featured-section-home-continuity_2x.png" alt="">
                 </div>
             </div>
@@ -65,7 +64,7 @@
     <div class="iphone pt-5  pb-5">
         <div class="container">
            <div class="row pt-5 pb-5" >
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <h1>Trade in with Apple</h1>
                     <p class="pt-2 p_size">Turn an eligible device into credit towards a new one, or recycle it for free. Apple Trade In is good for you and the planet.</p>
                     <a href="#" class="pr-2 a_color" >Learn more  &gt;
@@ -76,7 +75,7 @@
     </div>
     <section id="body_section">
         <div class="container pt-5 pb-5">
-            <div class="w-50 p-5">
+            <div class="w-50 pt-5 pb-5">
                 <h1 class="mt-5">Learn, create, and be inspired</h1>
                 <p class="mt-3">Write your first line of code, capture an artful photo, or make your own music. Join hands-on sessions happening every day at every Apple Store.</p>
                 <a href="#" class="pr-2 a_color" >Find Today at Apple sessions near you  &gt;
@@ -87,10 +86,10 @@
     <div class="border-top border-bottom pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <img class="img-thumbnail border-0" src="img/artcol-contentlink-expert_2x.png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <h1>Want to talk with someone?</h1>
                     <p class="pt-2 p_size">Get help by phone, chat, or email, set up a repair, or make a Genius Bar reservation.</p>
                     <a href="#" class="pr-2 a_color" >Contact Apple Support  &gt;
@@ -99,10 +98,12 @@
             </div> 
         </div>
     </div>
+
+
     <div class="pt-5  pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                         <h1>Find out about your coverage</h1>
                         <p class="pt-2 p_size">
                             <a href="#" class="pr-2 a_color">AppleCare products</a> give you additional repair coverage and technical support. If you already bought an AppleCare product, you can 
@@ -111,7 +112,7 @@
                         <a href="#" class="pr-2 a_color" >Check coverage for your product  &gt;
                         </a>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <img class="img-thumbnail border-0" src="img/applecare-products_2x.png" alt="">
                 </div>
                 
@@ -122,6 +123,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/base.js"></script>
     <script src="js/index.js"></script>
 </body>
 

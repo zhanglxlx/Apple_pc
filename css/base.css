@@ -42,30 +42,6 @@ a:hover {
 }
 
 
-/* 媒体查询 */
-
-@media screen and (min-width:991px) {
-    .hidden_md {
-        display: none;
-    }
-}
-
-@media screen and (max-width:991px) and (min-width:567px) {
-    .hidden_md,
-    .hidden_md_li {
-        display: none;
-    }
-}
-
-@media screen and (max-width:576px) {
-    .hidden_about {
-        margin-left: 0 !important;
-    }
-    .hidden_md {
-        display: block;
-    }
-}
-
 
 /* 底部样式 */
 

@@ -1,15 +1,46 @@
-/* 轮播样式 */
-#banner {
-    height: 46rem;
-    background: url(../img/hero-banner-homepage.image.large_2x.jpg) no-repeat center center;
-    background-size: 100%;
+/* 头部媒体查询 */
+
+/* 媒体查询 */
+
+@media screen and (min-width:991px) {
+    .hidden_md {
+        display: none;
+    }
 }
 
+@media screen and (max-width:991px) and (min-width:567px) {
+    .hidden_md,
+    .hidden_md_li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hidden_about {
+        margin-left: 0 !important;
+    }
+    .hidden_md {
+        display: block;
+    }
+    #banner {
+        height: 40rem;
+        background: url(../img/hero-banner-homepage.image.small_2x.jpg) no-repeat center center;
+    }
+}
+
+/* 轮播样式 */
+
+#banner {
+    height: 45rem;
+    background: url(../img/hero-banner-homepage.image.large_2x.jpg) no-repeat center center;
+}
 #banner h1 {
     font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: .006em;
 }
+
+
 
 #search {
     width: 28rem;
@@ -38,9 +69,7 @@
 }
 /* 主体样式 */
 div.iphone{
-    height: 33rem;
     background: url(../img/banner-hero-giveback-support.image.large_2x.jpg) no-repeat center center;
-    background-size: 100%;
 }
 .a_color{
     font-size:1.5rem;
@@ -51,6 +80,5 @@ div.iphone{
 }
 #body_section{
     background: url(../img/today-at-apple-workshop-banner.image.large_2x.jpg) no-repeat center center;
-    background-size: 100%;
     color: #fff;
 }
